@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chelsea</title>
+    <style>
+        @keyframes slideIn {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7e7e1;
+            animation: fadeIn 1s ease-in-out;
+        }
+        header {
+            background-color: #ffcccb;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            animation: slideIn 1s ease-in-out;
+        }
+        .container {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        .main-content {
+            width: 70%;
+            padding: 20px;
+            background-image: url(violet.jpg);
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.29);
+            animation: slideIn 2s ease-in-out;
+        }
+        .post, .photo {
+            background-image: url(04bedd0cddb6c67569edcec012984252.jpg);
+            color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+            animation: slideIn 2.5s ease-in-out;
+        }
+        .post-header, .photo-header {
+            display: flex;
+            align-items: center;
+        }
+        .post-header img, .photo-header img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        .post-body, .photo-body {
+            margin-top: 10px;
+        }
+        .post-body p, .photo-body p {
+            margin: 0;
+        }
+        .special-message {
+            background-image: url(04bedd0cddb6c67569edcec012984252.jpg);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            animation: slideIn 3s ease-in-out;
+        }
+        h2, p {
+            margin: 0;
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 30px;
+            height: auto;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: violet;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+        .button:hover {
+            background-color: violet;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Special Feed for My Baby</h1>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="special-message">
+                <h2>Hi Love</h2>
+                <p>Ito pala yung ginawa ko para sayo. Sana magustuhan mopo :)</p>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Hi Love, Happy 5th Monthsary!, Sa tagal nating pagsasama–Pagmamahal ko di nagbabago. Kamusta ka naman? It feels like it was only yesterday that this beautiful journey began, and the days passed by like a fleeting moment until here we were, celebrating five awesome months of love, laughter, and a million precious moments. </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Parang dati lang hindi parin nagbabago, Yung mga kiligs ng ating nararamdaman ay hinding-hindi nagbabago, sa limang buwan ng ating pagsasama, mas lalo tayong napapalapit. </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>From the moment we first met, I knew there was something truly special about you. Your kindness, your smile, and the way you make every moment feel magical have captured my heart completely. Every day spent with you is a gift, and I am so grateful to have you by my side. </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p> These past five months have made as much in the way of memories that I shall personally hold for indelible prints in my memory, from our moments of impromptu fun together to being silent, yet so close in each other's company. At every single turn, it only seemed to get us closer, with each new experience deepening my love for you. You bring so much joy and happiness into my life, and thus I don't ever want to imagine it without you. </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p> Lagi kitang Mamahalin, pero lagi din kitang namimiss. </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p> As we continue our journey together, I look forward to many more months and years of love and happiness. You are my sweetest, my confidant, and my girl friend that I loved. I promise to always cherish you, support you, and love you with all my heart. </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p> Thank you for being the incredible person that you are and for making these past five months so wonderful. I am excited to see what the future holds for us, knowing that with you, it will be nothing short of amazing. </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="35da48b5cfb7846532f3f6bc6bae7b7a.jpg" alt="Profile Picture">
+                    <div>
+                        <strong>Hatsuki</strong><br>
+                        <small></small>
+                    </div>
+                </div>
+                <div class="photo-body">
+                    <p>Pic natin together <3 </p>
+                    <img src="IMG20240721143922.jpg" alt="Our Photo">
+                </div>
+            </div>
+            <a href="next.html" class="button">Next</a>
+    </div><!-- Add more posts or photos here -->
+        </div>
+    </div>
+</body>
+</html>
